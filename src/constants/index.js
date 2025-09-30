@@ -79,7 +79,7 @@ export const educationList = [
   {
     id: "education-2",
     icon: FaSchool,
-    title: "Seth M.R. Jaipuria Schools, Varanasi",
+    title: "SETH M.R. JAIPURIA SCHOOLS, VARANASI",
     degree: "Higher Secondary Education",
     duration: "2021 - 2023",
     content1:
@@ -327,7 +327,7 @@ export const extraCurricular = [
     title: "Member",
     duration: "November 2024 - Present",
     content: [
-      
+       
     ],
     logo: bdcoe,
   }
@@ -359,3 +359,43 @@ export const aboutMe = {
   intro:
     " Blending design and technology as a Frontend Developer to deliver responsive, intuitive, and high-performance web experiences.",
 };
+
+export const experiences = [
+  {
+    organisation: "Big Data Center of Excellence",
+    logo: bdcoe,
+    link: "https://bdcoe.co.in",
+    positions: [
+      {
+        title: "NGISE",
+        duration: "January 2024 - May 2025",
+        content: [
+          {
+            text: "Contributed to the development of the NGISE 2025 website in collaboration with the college, enhancing online engagement and accessibility.",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Townhall Workshop",
+        duration: "May 2025", 
+        content: [
+          {
+            text: "Led an impactful Townhall workshop attended by 150+ students, facilitating knowledge sharing and fostering active participation.",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Rush Hour",
+        duration: "December 2024",
+        content: [
+          {
+            text: "Collaborated to the 'Rush Hour' competition with BDCOE members, attracting over 150+ students and promoting healthy competition and teamwork.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+];

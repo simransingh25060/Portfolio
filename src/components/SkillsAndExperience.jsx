@@ -1,5 +1,5 @@
 import React from "react";
-import { skills } from "../constants";
+import { experiences, skills } from "../constants";
 import { layout } from "../style";
 import { motion } from "framer-motion";
 
@@ -56,47 +56,47 @@ const Content = ({ text, link }) => {
   );
 };
 
-// const ExperienceCard = (props) => {
-//   return (
-//     <motion.div
-//     whileInView={{ y: [-20, 0], opacity: [0, 1] }}
-//     transition={{ duration: 1 }}
-//     >
-//       <div className="flex flex-row items-center mb-6">
-//         <img
-//           src={props.logo}
-//           alt={props.organisation}
-//           className="w-[52px] h-[52px] rounded-full z-[2]"
-//         />
-//         <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2">
-//           {props.organisation}
-//         </h4>
-//       </div>
-//       <ol className="relative border-l border-gray-200 dark:border-gray-700 ml-6">
-//         {props.positions.map((position, index) => (
-//           <li
-//             key={index}
-//             className={`${
-//               index === props.positions.length - 1 ? "mb-0" : "mb-4"
-//             } ml-4`}
-//           >
-//             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-//             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-//               {position.title}
-//             </h3>
-//             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-//               {position.duration}
-//             </time>
-//             {position.content.map((info, index) => (
-//               <Content key={index} index={index} {...info} />
-//             ))}
-//             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"></p>
-//           </li>
-//         ))}
-//       </ol>
-//     </motion.div>
-//   );
-// };
+const ExperienceCard = (props) => {
+  return (
+    <motion.div
+    whileInView={{ y: [-20, 0], opacity: [0, 1] }}
+    transition={{ duration: 1 }}
+    >
+      <div className="flex flex-row items-center mb-6">
+        <img
+          src={props.logo}
+          alt={props.organisation}
+          className="w-[52px] h-[52px] rounded-full z-[2]"
+        />
+        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2">
+          {props.organisation}
+        </h4>
+      </div>
+      <ol className="relative border-l border-gray-200 dark:border-gray-700 ml-6">
+        {props.positions.map((position, index) => (
+          <li
+            key={index}
+            className={`${
+              index === props.positions.length - 1 ? "mb-0" : "mb-4"
+            } ml-4`}
+          >
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <h3 className="text-lg font-semibold text-white dark:text-white">
+              {position.title}
+            </h3>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              {position.duration}
+            </time>
+            {position.content.map((info, index) => (
+              <Content key={index} index={index} {...info} />
+            ))}
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"></p>
+          </li>
+        ))}
+      </ol>
+    </motion.div>
+  );
+};
 
 const SkillsAndExperience = () => {
   return (
@@ -117,11 +117,11 @@ const SkillsAndExperience = () => {
         </motion.div>
 
         {/* Experience */}
-        {/* <motion.div className="flex flex-1 items-center justify-start flex-col">
+        <motion.div className="flex flex-1 items-center justify-start flex-col">
           {experiences.map((exp, index) => (
             <ExperienceCard key={index} index={index} {...exp} />
           ))}
-        </motion.div> */}
+        </motion.div>
       </div>
     </section>
   );
