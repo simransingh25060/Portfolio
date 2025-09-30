@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" zoomAndPan="magnify" viewBox="0 0 768 767.999994" height="1024" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><g/></defs>
+  
+  <!-- Background (transparent) -->
+  <rect width="768" height="768" fill="none"/>
+  
+  <!-- Decorative brackets -->
+  <g fill="#1aede6" fill-opacity="1" stroke="#1aede6" stroke-width="3">
+    <!-- Left bracket -->
+    <path d="M 160 200 C 140 200 130 210 130 230 L 130 300 C 130 320 120 330 110 330 L 110 350 C 120 350 130 360 130 380 L 130 450 C 130 470 140 480 160 480 L 180 480 L 180 460 L 160 460 C 150 460 150 450 150 440 L 150 390 C 150 370 140 360 130 360 C 140 360 150 350 150 330 L 150 280 C 150 270 150 260 160 260 L 170 260 L 170 200 L 160 200 Z"/>
+    
+    <!-- Right bracket -->
+    <path d="M 608 200 C 628 200 638 210 638 230 L 638 300 C 638 320 648 330 658 330 L 658 350 C 648 350 638 360 638 380 L 638 450 C 638 470 628 480 608 480 L 588 480 L 588 460 L 608 460 C 618 460 618 450 618 440 L 618 390 C 618 370 628 360 638 360 C 628 360 618 350 618 330 L 618 280 C 618 270 618 260 608 260 L 598 260 L 598 200 L 608 200 Z"/>
+  </g>
+  
+  <!-- Main text -->
+  <g fill="#ffffff" fill-opacity="1">
+    <!-- SIMRAN -->
+    <text x="384" y="320" font-family="Arial, sans-serif" font-weight="bold" font-size="84" text-anchor="middle">SIMRAN</text>
+    
+    <!-- SINGH -->
+    <text x="384" y="420" font-family="Arial, sans-serif" font-weight="bold" font-size="84" text-anchor="middle">SINGH</text>
+  </g>
+</svg>
