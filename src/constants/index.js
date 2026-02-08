@@ -167,8 +167,76 @@ export const skills = [
 ];
 
 export const projects = [
-  {
+   {
     id: "project-1",
+    title: "Minilink",
+    github: "https://github.com/simransingh25060/Minilink",
+    link: "https://minilink-frontend.vercel.app/",
+    image: "https://ucarecdn.com/a03197aa-bf1e-4f90-94b5-5a523e95a864/-/preview/299x168/",
+    content:
+      "URL shortening application that converts long ,messy URLs into short ,clean links.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+    ],
+  },
+   {
+    id: "project-2",
+    title: "Promptiqo",
+    github: "https://github.com/simransingh25060/Promptiqo",
+    link: "https://promptiqo-vjxp.vercel.app/",
+    image: "https://promptiqo-vjxp.vercel.app/bot.png",
+    content:
+      "An AI-powered chat app for interacting with a conversational assistant to ask questions and generate responses.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+    ],
+  },
+   {
+    id: "project-3",
+    title: "SpiceHop",
+    github: "https://github.com/simransingh25060/SpiceHop",
+    link: "https://spice-hop-frontend.vercel.app/",
+    image: "https://ucarecdn.com/8d198456-7f22-4496-bb26-a0cb09f5cec0/-/preview/540x360/",
+    content:
+      "A modern food discovery platform, it features secure authentication and real-time order management.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+    ],
+  },
+  {
+    id: "project-4",
     title: "TripTrack",
     github: "https://github.com/simransingh25060/TripTrack",
     link: "https://triptrack.tech/",
@@ -194,7 +262,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-5",
     title: "Scanalyze",
     github: "https://github.com/simransingh25060/Scanalyze",
     link: "https://scanalyze-kappa.vercel.app/",
@@ -215,7 +283,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-6",
     title: "Blognest",
     github: "https://github.com/simransingh25060/BlogNest",
     link: "https://appwrite-beige.vercel.app/",
@@ -241,7 +309,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
+    id: "project-7",
     title: "Brain Blitz",
     github: "https://github.com/simransingh25060/BrainBlIitz",
     link: "https://brain-bl-iitz.vercel.app/",
@@ -266,34 +334,34 @@ export const projects = [
       },
     ],
   },
+  // {
+  //   id: "project-7",
+  //   title: "Currency Converter",
+  //   github: "https://github.com/simransingh25060/Currency-Converter",
+  //   link: "https://currency-converter-blush-two.vercel.app/",
+  //   image: "https://ucarecdn.com/a47e8886-571a-4a66-be3b-c575f05fb1d8/-/preview/1000x560/",
+  //   content:
+  //     "A simple yet effective currency converter that allows users to convert between different currencies in real-time. Built with React and API integration for accurate exchange rates.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiJavascript,
+  //       name: "JavaScript",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiTailwindcss,
+  //       name: "TailwindCSS",
+  //     },
+  //   ],
+  // },
   {
-    id: "project-5",
-    title: "Currency Converter",
-    github: "https://github.com/simransingh25060/Currency-Converter",
-    link: "https://currency-converter-blush-two.vercel.app/",
-    image: "https://ucarecdn.com/a47e8886-571a-4a66-be3b-c575f05fb1d8/-/preview/1000x560/",
-    content:
-      "A simple yet effective currency converter that allows users to convert between different currencies in real-time. Built with React and API integration for accurate exchange rates.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "icon-3",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-    ],
-  },
-  {
-    id: "project-6",
+    id: "project-8",
     title: "Fruit Cutting Game",
     github: "https://github.com/simransingh25060/Fruit-Cutting-Game0",
     link: "https://fruit-cutting-game0.vercel.app/",
