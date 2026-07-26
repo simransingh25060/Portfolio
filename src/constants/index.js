@@ -167,27 +167,27 @@ export const skills = [
 ];
 
 export const projects = [
-   {
-    id: "project-1",
-    title: "Minilink",
-    github: "https://github.com/simransingh25060/Minilink",
-    link: "https://minilink-frontend.vercel.app/",
-    image: "https://ucarecdn.com/a03197aa-bf1e-4f90-94b5-5a523e95a864/-/preview/299x168/",
-    content:
-      "URL shortening application that converts long ,messy URLs into short ,clean links.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-    ],
-  },
+  //  {
+  //   id: "project-1",
+  //   title: "Minilink",
+  //   github: "https://github.com/simransingh25060/Minilink",
+  //   link: "https://minilink-frontend.vercel.app/",
+  //   image: "https://ucarecdn.com/a03197aa-bf1e-4f90-94b5-5a523e95a864/-/preview/299x168/",
+  //   content:
+  //     "URL shortening application that converts long ,messy URLs into short ,clean links.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiJavascript,
+  //       name: "JavaScript",
+  //     },
+  //   ],
+  // },
    {
     id: "project-2",
     title: "Promptiqo",
@@ -235,32 +235,32 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-4",
-    title: "TripTrack",
-    github: "https://github.com/simransingh25060/TripTrack",
-    link: "https://triptrack.tech/",
-    image: "https://ucarecdn.com/ba44ed11-fbf8-46ab-bea6-d9766992fc37/-/preview/971x593/",
-    content:
-      "A Travel Agency Dashboard where users can create and manage custom trips, book accommodations and activities.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-    ],
-  },
+  // {
+  //   id: "project-4",
+  //   title: "TripTrack",
+  //   github: "https://github.com/simransingh25060/TripTrack",
+  //   link: "https://triptrack.tech/",
+  //   image: "https://ucarecdn.com/ba44ed11-fbf8-46ab-bea6-d9766992fc37/-/preview/971x593/",
+  //   content:
+  //     "A Travel Agency Dashboard where users can create and manage custom trips, book accommodations and activities.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "TailwindCSS",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiJavascript,
+  //       name: "JavaScript",
+  //     },
+  //   ],
+  // },
   {
     id: "project-5",
     title: "Scanalyze",
@@ -410,18 +410,18 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/simransingh250",
+    link: "https://www.github.com/simransingh25060",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:simransingh@gmail.com",
+    link: "mailto:simransingh25060@gmail.com",
   },
 ];
 
 export const aboutMe = {
   name: "Simran Singh",
-  githubUsername: "simransingh250",
+  githubUsername: "simransingh25060",
   tagLine:
     "Member of Big Data Center OF Excellence",
   intro:
